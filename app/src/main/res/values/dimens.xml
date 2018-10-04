@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="piece_width">34dp</dimen>
+    <dimen name="piece_height">36dp</dimen>
+    <dimen name="piece_topleft_leftMargin">16dp</dimen>
+    <dimen name="piece_topleft_topMargin">110dp</dimen>
+    <dimen name="piece_file_separation">43.425dp</dimen>
+    <dimen name="piece_rank_separation">43.5dp</dimen>
+</resources>

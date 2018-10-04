@@ -31,21 +31,22 @@ class ShogiBoard {
     }
 
     private fun getPiece(coords: ShogiCoordinate): Piece? {
-        return board[coords.getInd0()][coords.getInd1()]
+        return board[coords.getIndFile()][coords.getIndRank()]
     }
 
     private fun setPiece(piece: Piece?, coords: ShogiCoordinate) {
-        board[coords.getInd0()][coords.getInd1()] = piece
+        board[coords.getIndFile()][coords.getIndRank()] = piece
 
     }
 }
 
 class ShogiCoordinate(val file: Int, val rank: Int) {
 
-    fun getInd0(): Int {
-        return file - 1
+    // Indices are from top-left
+    fun getIndFile(): Int {
+        return 9 - file
     }
-    fun getInd1(): Int {
+    fun getIndRank(): Int {
         return rank - 1
     }
 }
