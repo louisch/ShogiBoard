@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">将棋盤</string>
+    <string name="board_content_desc">将棋の盤</string>
+    <string name="piece_content_desc">駒</string>
+    <string name="piece_name_P"></string>
+    <string name="piece_name_L">香</string>
+    <string name="piece_name_N">桂</string>
+    <string name="piece_name_S">銀</string>
+    <string name="piece_name_G">金</string>
+    <string name="piece_name_B">B</string>
+    <string name="piece_name_R">R</string>
+    <string name="piece_name_KB">玉</string>
+    <string name="piece_name_KW">王</string>
+</resources>

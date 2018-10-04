@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">ShogiBoard</string>
+    <string name="app_name">Shogi Board</string>
     <string name="board_content_desc">Board for Shogi</string>
     <string name="piece_content_desc">Shogi Piece</string>
-    <string name="piece_name">と</string>
+    <string name="piece_name_P">P</string>
+    <string name="piece_name_L">L</string>
+    <string name="piece_name_N">N</string>
+    <string name="piece_name_S">S</string>
+    <string name="piece_name_G">G</string>
+    <string name="piece_name_B">B</string>
+    <string name="piece_name_R">R</string>
+    <string name="piece_name_KB">K</string>
+    <string name="piece_name_KW">K</string>
 </resources>
